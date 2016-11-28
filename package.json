@@ -1,0 +1,31 @@
+{
+  "name": "reptile",
+  "version": "1.0.0",
+  "description": "简单爬虫案例",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzxm/node_reptile.git"
+  },
+  "author": "wangzhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wzxm/node_reptile/issues"
+  },
+  "homepage": "https://github.com/wzxm/node_reptile#readme",
+  "dependencies": {
+    "async": "^2.1.4"
+  },
+  "devDependencies": {
+    "cheerio": "^0.22.0",
+    "eventproxy": "^0.3.5",
+    "express": "^4.14.0",
+    "fs": "0.0.1-security",
+    "superagent": "^3.0.0",
+    "utility": "^1.9.0"
+  }
+}
